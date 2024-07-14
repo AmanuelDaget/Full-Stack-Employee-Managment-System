@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+@media only screen and (max-width:768px){
+   h1,h2,h3,h4,h5{
+    font-size: 16px;
+   }
+}
+.loginPage{
+    background: url('../../public/images/EmployeeManagment.png');
+    background: linear-gradient(rgba(11,11,11,0.5),rgba(10,10,10,0.5),url("../../public/images/EmployeeManagment.png"));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+.loginForm{
+    background-color: rgba(1,32,93,0.6);
+    color: white;
+}
+
+.employee_image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.admin_profile_image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.nav li:hover{
+    background-color: #5c5959;
+    border-radius: 5px;
+}
+
+
+/* CSS for Admin Dashboard    dashboard.js */
+
+.adminListTable ,.addCatagoryContainer,.catagory-container,.editContainer{
+    box-shadow: 2px 2px 16px 5px rgba(0, 0, 0, 0.1);
+  
+}
+/* CSS FOR EMPLOYEE PROFIEL employeProfile.js */
+
+
+
+#headerText {
+    color: white;
+    margin: 0;
+}
+.employeeInfo{
+    color: #555;
+    margin: 5px 0;
+}
+/* Header styles */
+.header {
+    background-color: #007bff;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* Profile image styles */
+.employee_profile_image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #007bff;
+}
+/* Container styles */
+.employeeInfoContainer{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+.employeeInfoTextContainer h5 {
+    font-size: 18px;
+}
+/* Button styles */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* CSS FOR ADMIN DASHBOARD   dashboard.js */
